@@ -1,5 +1,5 @@
 import com.lehich.Array;
-
+import static com.lehich.HeapSort.heapS;
 import static com.lehich.Sorts.bubbleS;
 import static com.lehich.Sorts.coutingS;
 import static java.lang.System.out;
@@ -16,8 +16,8 @@ public class Main extends Array {
         printArray(intArray);
         coutingS(intArray);
         bubbleS(intArray);
-
-
+        heapS(intArray);
+        printArray(intArray);
 
 
 

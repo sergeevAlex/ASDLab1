@@ -3,7 +3,7 @@ package com.lehich;
 import static java.lang.System.currentTimeMillis;
 import static java.lang.System.out;
 import static com.lehich.Array.printArray;
-public class Sorts {
+public class Sorts extends HeapSort {
 public Sorts()
 {}
 public static void coutingS(int[] array){
@@ -35,7 +35,7 @@ public static void coutingS(int[] array){
     printArray(aux);
     long timeout = System.currentTimeMillis() - starttime;
     System.out.println();
-    System.out.println("Время выполнения CountSort = " + timeout);
+    System.out.println("Time of CountSort = " + timeout);
 
 }
 public static void bubbleS(int[] array){
