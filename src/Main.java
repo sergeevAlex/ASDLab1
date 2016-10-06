@@ -18,16 +18,5 @@ public class Main extends Array {
         bubbleS(intArray);
         heapS(intArray);
         printArray(intArray);
-
-
-
-
-
-
-
-
     }
-
-
-
 }
